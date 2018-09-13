@@ -31,12 +31,12 @@ p {
   width: 5em;
 }
 
-/* .social-icons:hover {
-  background-color: #9f9aa4;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  border-radius: 60px;
-} */
+.social-icons:hover {
+  -webkit-transition: -webkit-transform .4s ease;
+  transition: transform .4s ease;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 
 .body-text {
   background-color: #fff;
