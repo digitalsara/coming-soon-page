@@ -1,6 +1,6 @@
 html {
   background-color: #e7cfcd;
-  background-image: url(../images/pattern.svg);
+  background-image: url("../images/pattern.svg");
   background-repeat: repeat;
   background-size: 20%;
 
@@ -9,11 +9,11 @@ html {
 }
 
 h1, h2, h3, h4 {
-  font-family: "Karla", sans-serif;
+  font-family: Karla, sans-serif;
 }
 
 p {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   line-height: 1.8;
 }
 
@@ -44,7 +44,6 @@ p {
   margin: 2em;
 }
 
-/* Tablet */
 @media only screen and (min-width: 38em) {
 
   html {
@@ -69,7 +68,6 @@ p {
 
 }
 
-/* Desktop */
 @media only screen and (min-width: 90em) {
 
   html {
