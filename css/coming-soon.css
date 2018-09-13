@@ -24,31 +24,22 @@ p {
 .social-icons {
   width: 60px;
   height: 60px;
-  margin-right: 2em;
+  margin-right: .5em;
 }
 
-.social-icons:hover {
+.coffee-bean {
+  width: 5em;
+}
+
+/* .social-icons:hover {
   background-color: #9f9aa4;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   border-radius: 60px;
-}
+} */
 
 .body-text {
   background-color: #fff;
   padding: 6em;
   margin: 6em;
-}
-
-.footer {
-  background-color: #f4dddc;
-  padding: 2em 0;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.footer-header {
-  color: #fff;
 }
