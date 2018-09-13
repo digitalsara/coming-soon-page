@@ -2,7 +2,7 @@ html {
   background-color: #e7cfcd;
   background-image: url(../images/pattern.svg);
   background-repeat: repeat;
-  background-size: 8%;
+  background-size: 20%;
 
   height: 100%;
   margin: 0;
@@ -14,17 +14,17 @@ h1, h2, h3, h4 {
 
 p {
   font-family: "Merriweather", serif;
+  line-height: 1.8;
 }
 
 .elevated-text {
-  /* border-bottom: 8px #000 solid; */
   text-decoration: underline;
 }
 
 .social-icons {
-  width: 60px;
-  height: 60px;
-  margin-right: .5em;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
 }
 
 .coffee-bean {
@@ -40,6 +40,40 @@ p {
 
 .body-text {
   background-color: #fff;
-  padding: 6em;
-  margin: 6em;
+  padding: 2em;
+  margin: 2em;
+}
+
+/* Tablet */
+@media only screen and (min-width: 38em) {
+
+  html {
+    background-size: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .body-text {
+    background-color: #fff;
+    padding: 6em;
+    margin: 6em;
+  }
+
+  .social-icons {
+    width: 60px;
+    height: 60px;
+    margin-right: .5em;
+  }
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 90em) {
+
+  html {
+    background-size: 8%;
+  }
+
 }
