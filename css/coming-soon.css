@@ -3,6 +3,9 @@ html {
   background-image: url(../images/pattern.svg);
   background-repeat: repeat;
   background-size: 8%;
+
+  height: 100%;
+  margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -35,4 +38,17 @@ p {
   background-color: #fff;
   padding: 6em;
   margin: 6em;
+}
+
+.footer {
+  background-color: #f4dddc;
+  padding: 2em 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-header {
+  color: #fff;
 }
