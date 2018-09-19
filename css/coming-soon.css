@@ -8,7 +8,7 @@ html {
   margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .karla {
   font-family: Karla, sans-serif;
 }
 
@@ -32,10 +32,12 @@ p {
 }
 
 .social-icons:hover {
-  -webkit-transition: -webkit-transform .4s ease;
+  width: 60px;
+  height: 60px;
+  /* -webkit-transition: -webkit-transform .4s ease;
   transition: transform .4s ease;
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+  transform: rotate(360deg); */
 }
 
 .body-text {
