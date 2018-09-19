@@ -34,10 +34,10 @@ p {
 .social-icons:hover {
   width: 60px;
   height: 60px;
-  /* -webkit-transition: -webkit-transform .4s ease;
+  -webkit-transition: -webkit-transform .4s ease;
   transition: transform .4s ease;
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg); */
+  transform: rotate(360deg);
 }
 
 .body-text {
